@@ -139,17 +139,6 @@ const PROJECT_FOLDER = 'https://github.com/opencampus-sh/ML-Projects/blob/main/s
 // prettier-ignore
 const Users: User[] = [
   {
-    title: 'Project title',
-    preview: require('./img/logo_OC.png'),
-    course: 'Course',
-    semester: 'Semester',
-    participants: 'Participants',
-    description: 'Description',
-    source: 'source',
-    website: 'https://github.com/website.com',
-    tags: ['favorite', 'opensource'],
-  },
-  {
     title: 'Study Recommender System with GPT-3',
     preview: require('./img/nlp/StudyRecommendationGPT3Project.png'),
     course: 'Natural Language Processing',
@@ -161,8 +150,8 @@ const Users: User[] = [
       Jan, Jan and Erwin built a system using state of the art technology to recommend you the best choice based on what you are looking for.
       </>
     ),
-    source: PROJECT_FOLDER + '/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
-    website: PROJECT_FOLDER + '/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
+    source: PROJECT_FOLDER + 'NLP/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
+    website: PROJECT_FOLDER + 'NLP/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
     tags: ['NLP', 'opensource'],
   },
   {
@@ -193,8 +182,8 @@ const Users: User[] = [
       This project trains a CNN to identify illustrations in monographies from the 15th to the 18th century.
       </>
     ),
-    source: PROJECT_FOLDER + 'Historic_illustration.ipynb',
-    website: PROJECT_FOLDER + 'Historic_illustration.ipynb',
+    source: PROJECT_FOLDER + 'MLWT/Historic_illustration.ipynb',
+    website: PROJECT_FOLDER + 'MLWT/Historic_illustration.ipynb',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -208,8 +197,8 @@ const Users: User[] = [
       Which artist painted this painting? Nils and John tried to answer this question using neural networks with different approaches, discover more in their presentation.
       </>
     ),
-    source: PROJECT_FOLDER + 'PaintingClassification',
-    website: PROJECT_FOLDER + 'PaintingClassification',
+    source: PROJECT_FOLDER + 'DLFS/PaintingClassification',
+    website: PROJECT_FOLDER + 'DLFS/PaintingClassification',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -224,8 +213,8 @@ const Users: User[] = [
       This project achieved an accuracy of 0.9896 on this task!
       </>
     ),
-    source: PROJECT_FOLDER + 'COVID-19-Xray-Image-Classification',
-    website: PROJECT_FOLDER + 'COVID-19-Xray-Image-Classification',
+    source: PROJECT_FOLDER + 'DLFS/COVID-19-Xray-Image-Classification',
+    website: PROJECT_FOLDER + 'DLFS/COVID-19-Xray-Image-Classification',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -238,8 +227,8 @@ const Users: User[] = [
       This project develops a detection system which tells from a picture whether the person is wearing a mask or not.
       </>
     ),
-    source: PROJECT_FOLDER + 'FaceMaskRecognition',
-    website: PROJECT_FOLDER + 'FaceMaskRecognition',
+    source: PROJECT_FOLDER + 'DLFS/FaceMaskRecognition',
+    website: PROJECT_FOLDER + 'DLFS/FaceMaskRecognition',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -252,8 +241,8 @@ const Users: User[] = [
       Analyzing the SprottenFlotte data from Kiel, can we predict where will the next bike be borrowed? <i><b>Note</b>: the data for this project is private and cannot be shared, only the results.</i>
       </>
     ),
-    source: PROJECT_FOLDER + 'BikeSharingPrediction',
-    website: PROJECT_FOLDER + 'BikeSharingPrediction',
+    source: PROJECT_FOLDER + 'DLFS/BikeSharingPrediction',
+    website: PROJECT_FOLDER + 'DLFS/BikeSharingPrediction',
     tags: ['DLFS', 'opensource', 'company'],
   },
   {
@@ -268,8 +257,8 @@ const Users: User[] = [
       The project shows promising results in this direction.
       </>
     ),
-    source: PROJECT_FOLDER + 'DiseaseClassificationXRay',
-    website: PROJECT_FOLDER + 'DiseaseClassificationXRay',
+    source: PROJECT_FOLDER + 'DLFS/DiseaseClassificationXRay',
+    website: PROJECT_FOLDER + 'DLFS/DiseaseClassificationXRay',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -283,8 +272,8 @@ const Users: User[] = [
       Predicting the best spot for surfing is a hard task, yet Lennart gave it a great shot and developed a model to predict it with 86% of accuracy. <i><b>Note</b>: the data for this project is private and cannot be shared, only the results.</i>
       </>
     ),
-    source: PROJECT_FOLDER + 'windfinderNN.ipynb',
-    website: PROJECT_FOLDER + 'windfinderNN.ipynb',
+    source: PROJECT_FOLDER + 'DLFS/windfinderNN.ipynb',
+    website: PROJECT_FOLDER + 'DLFS/windfinderNN.ipynb',
     tags: ['DLFS', 'opensource', 'company'],
   },
   {
@@ -299,8 +288,8 @@ const Users: User[] = [
       Using a U-Net the group was able to do some interesting work on a Kaggle Challenge.
       </>
     ),
-    source: PROJECT_FOLDER + 'ImageSegmentation',
-    website: PROJECT_FOLDER + 'ImageSegmentation',
+    source: PROJECT_FOLDER + 'DLFS/ImageSegmentation',
+    website: PROJECT_FOLDER + 'DLFS/ImageSegmentation',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -314,8 +303,8 @@ const Users: User[] = [
       This project is aimed at building an algorithm able to detector for SAR imagery which finds and classifies ships, icebergs or unidentified objects.
       </>
     ),
-    source: PROJECT_FOLDER + 'Ship_Iceberg_Classification.ipynb',
-    website: PROJECT_FOLDER + 'Ship_Iceberg_Classification.ipynb',
+    source: PROJECT_FOLDER + 'MLWT/Ship_Iceberg_Classification.ipynb',
+    website: PROJECT_FOLDER + 'MLWT/Ship_Iceberg_Classification.ipynb',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -330,8 +319,8 @@ const Users: User[] = [
       Here a classifier which is able to distinguish Latin, Chines, Kyrillic and Georgian!
       </>
     ),
-    source: PROJECT_FOLDER + 'ScriptRecongition',
-    website: PROJECT_FOLDER + 'ScriptRecongition',
+    source: PROJECT_FOLDER + 'MLWT/ScriptRecongition',
+    website: PROJECT_FOLDER + 'MLWT/ScriptRecongition',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -346,8 +335,8 @@ const Users: User[] = [
       Can we feed a NN with a set of 2D outline of airfoil profiles and let it learn?
       </>
     ),
-    source: PROJECT_FOLDER + 'AirfoilsDesign/AirfoilDesign_presentation_final.ipynb',
-    website: PROJECT_FOLDER + 'AirfoilsDesign/AirfoilDesign_presentation_final.ipynb',
+    source: PROJECT_FOLDER + 'MLWT/AirfoilsDesign/AirfoilDesign_presentation_final.ipynb',
+    website: PROJECT_FOLDER + 'MLWT/AirfoilsDesign/AirfoilDesign_presentation_final.ipynb',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -362,8 +351,8 @@ const Users: User[] = [
       Here the solution: a neural network to automatically classify musical genre!
       </>
     ),
-    source: PROJECT_FOLDER + 'MusicalGenreClassification',
-    website: PROJECT_FOLDER + 'MusicalGenreClassification',
+    source: PROJECT_FOLDER + 'MLWT/MusicalGenreClassification',
+    website: PROJECT_FOLDER + 'MLWT/MusicalGenreClassification',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -378,8 +367,8 @@ const Users: User[] = [
       This project aims at classifying network traffic using passive measurements of TCP connections.
       </>
     ),
-    source: PROJECT_FOLDER + 'NetworkTrafficPrediction.ipynb',
-    website: PROJECT_FOLDER + 'NetworkTrafficPrediction.ipynb',
+    source: PROJECT_FOLDER + 'MLWT/NetworkTrafficPrediction.ipynb',
+    website: PROJECT_FOLDER + 'MLWT/NetworkTrafficPrediction.ipynb',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -394,8 +383,8 @@ const Users: User[] = [
       This group got an auto-regressive neural network on this task!
       </>
     ),
-    source: PROJECT_FOLDER + 'Predict-Bakery-Turnover-using-AR-Net-main/Predicting_Bakery_Turnover_AR-Net_Modelling-HyperparameterSearch.ipynb',
-    website: PROJECT_FOLDER + 'Predict-Bakery-Turnover-using-AR-Net-main/Predicting_Bakery_Turnover_AR-Net_Modelling-HyperparameterSearch.ipynb',
+    source: PROJECT_FOLDER + 'MLWT/Predict-Bakery-Turnover-using-AR-Net-main/Predicting_Bakery_Turnover_AR-Net_Modelling-HyperparameterSearch.ipynb',
+    website: PROJECT_FOLDER + 'MLWT/Predict-Bakery-Turnover-using-AR-Net-main/Predicting_Bakery_Turnover_AR-Net_Modelling-HyperparameterSearch.ipynb',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -411,8 +400,8 @@ const Users: User[] = [
       Here some interesting attempts!
       </>
     ),
-    source: PROJECT_FOLDER + 'News4MarketPrediction.ipynb',
-    website: PROJECT_FOLDER + 'News4MarketPrediction.ipynb',
+    source: PROJECT_FOLDER + 'MLWT/News4MarketPrediction.ipynb',
+    website: PROJECT_FOLDER + 'MLWT/News4MarketPrediction.ipynb',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -426,8 +415,8 @@ const Users: User[] = [
       The project worked on training a nueral network for the prediction of unilateral export statistics using Neuralnet and AIS-Containership data
       </>
     ),
-    source: PROJECT_FOLDER + 'AIS_prediction',
-    website: PROJECT_FOLDER + 'AIS_prediction',
+    source: PROJECT_FOLDER + 'MLWT/AIS_prediction',
+    website: PROJECT_FOLDER + 'MLWT/AIS_prediction',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -441,8 +430,8 @@ const Users: User[] = [
       This group focused on voice detection and human classification based on the voice.
       </>
     ),
-    source: PROJECT_FOLDER + 'VoiceDetection.ipynb',
-    website: PROJECT_FOLDER + 'VoiceDetection.ipynb',
+    source: PROJECT_FOLDER + 'MLWT/VoiceDetection.ipynb',
+    website: PROJECT_FOLDER + 'MLWT/VoiceDetection.ipynb',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -456,13 +445,13 @@ const Users: User[] = [
       Deep Learning project to predict future sales of a bakery store according to products.
       </>
     ),
-    source: PROJECT_FOLDER + 'Bakery-Sales-project',
-    website: PROJECT_FOLDER + 'Bakery-Sales-project',
+    source: PROJECT_FOLDER + 'DLFS/Bakery-Sales-project',
+    website: PROJECT_FOLDER + 'DLFS/Bakery-Sales-project',
     tags: ['DLFS', 'opensource'],
   },
   {
     title: 'Hydrochemistry Time Series',
-    preview: require('./img/dlfs/hydro.png'),
+    preview: require('./img/dlfs/hydro.jpg'),
     course: 'Deep Learning from Scratch',
     semester: 'SoSe 2021',
     participants: 'Julia Börth, Matthias Bressan, Irena Kampa, Wanja Böhme',
@@ -473,8 +462,8 @@ const Users: User[] = [
       We use a three layered, dense neural network to predict our parameter.
       </>
     ),
-    source: PROJECT_FOLDER + 'Hydrochemistry_TS',
-    website: PROJECT_FOLDER + 'Hydrochemistry_TS',
+    source: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TS',
+    website: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TS',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -490,8 +479,8 @@ const Users: User[] = [
       and legitimate website.
       </>
     ),
-    source: PROJECT_FOLDER + 'Physhing_Website_Detection',
-    website: PROJECT_FOLDER + 'Physhing_Website_Detection',
+    source: PROJECT_FOLDER + 'DLFS/Physhing_Website_Detection',
+    website: PROJECT_FOLDER + 'DLFS/Physhing_Website_Detection',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -505,8 +494,8 @@ const Users: User[] = [
       Prediction of bakery sales based on Metolytix Dataset
       </>
     ),
-    source: PROJECT_FOLDER + 'BakerySalesPrediction',
-    website: PROJECT_FOLDER + 'BakerySalesPrediction',
+    source: PROJECT_FOLDER + 'DLFS/BakerySalesPrediction',
+    website: PROJECT_FOLDER + 'DLFS/BakerySalesPrediction',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -520,8 +509,8 @@ const Users: User[] = [
       We try to simulate Climate Scenario Analysis using 3 different IPCC climate scenarios; RCP3PD, RCP4.5, and RCP6 and predict temperature for each scenario in the year 2100.
       </>
     ),
-    source: PROJECT_FOLDER + 'Climate_Change',
-    website: PROJECT_FOLDER + 'Climate_Change',
+    source: PROJECT_FOLDER + 'DLFS/Climate_Change',
+    website: PROJECT_FOLDER + 'DLFS/Climate_Change',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -535,8 +524,8 @@ const Users: User[] = [
       This project uses a Fake and real news dataset from the Kaggle.  We implement a Feed Forward Neural Network and a LSTM techniques using TensorFlow to find the desired output for the project.
       </>
     ),
-    source: PROJECT_FOLDER + 'FakeNewsDetector_G2',
-    website: PROJECT_FOLDER + 'FakeNewsDetector_G2',
+    source: PROJECT_FOLDER + 'DLFS/FakeNewsDetector_G2',
+    website: PROJECT_FOLDER + 'DLFS/FakeNewsDetector_G2',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -550,8 +539,8 @@ const Users: User[] = [
       A basic machine learning approch on predicting the pageviews for the windfinder website when provided with weatherdata. <i><b>Note</b>: the data for this project is private and cannot be shared, only the results.</i>
       </>
     ),
-    source: PROJECT_FOLDER + 'Windfinder_So2021',
-    website: PROJECT_FOLDER + 'Windfinder_So2021',
+    source: PROJECT_FOLDER + 'DLFS/Windfinder_So2021',
+    website: PROJECT_FOLDER + 'DLFS/Windfinder_So2021',
     tags: ['DLFS', 'opensource', 'company'],
   },
   {
@@ -565,8 +554,8 @@ const Users: User[] = [
       The goal of this project was generating images of artificial / "fake" Chinese Characters by using a generative adversarial network (GAN) trained on a dataset of images containing real Chinese characters.
       </>
     ),
-    source: PROJECT_FOLDER + 'Generating-Fake-Chinese-Characters-by-GAN',
-    website: PROJECT_FOLDER + 'Generating-Fake-Chinese-Characters-by-GAN',
+    source: PROJECT_FOLDER + 'GAN/Generating-Fake-Chinese-Characters-by-GAN',
+    website: PROJECT_FOLDER + 'GAN/Generating-Fake-Chinese-Characters-by-GAN',
     tags: ['GAN', 'opensource'],
   },
   {
@@ -580,8 +569,8 @@ const Users: User[] = [
       Automated scoring of social study evaluation
       </>
     ),
-    source: PROJECT_FOLDER + 'azubi_evaluation_ml_with_tensorflow',
-    website: PROJECT_FOLDER + 'azubi_evaluation_ml_with_tensorflow',
+    source: PROJECT_FOLDER + 'MLWT/azubi_evaluation_ml_with_tensorflow',
+    website: PROJECT_FOLDER + 'MLWT/azubi_evaluation_ml_with_tensorflow',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -595,8 +584,8 @@ const Users: User[] = [
       The goal of this project is to train a model which is able to classify if the value of specific cryptocurrency would rise or decline in the next day and would it be rational to buy or sell that crypto.
       </>
     ),
-    source: PROJECT_FOLDER + 'Hybrid_Approach_to_Predict_Cryptocurrency_Value',
-    website: PROJECT_FOLDER + 'Hybrid_Approach_to_Predict_Cryptocurrency_Value',
+    source: PROJECT_FOLDER + 'MLWT/Hybrid_Approach_to_Predict_Cryptocurrency_Value',
+    website: PROJECT_FOLDER + 'MLWT/Hybrid_Approach_to_Predict_Cryptocurrency_Value',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -610,8 +599,8 @@ const Users: User[] = [
       This project aimed to configure and train a network to predict the specie of a bird based on its image using different computer vision training techniques including CNN and transfer learning.
       </>
     ),
-    source: PROJECT_FOLDER + 'image_classification_for_birds',
-    website: PROJECT_FOLDER + 'image_classification_for_birds',
+    source: PROJECT_FOLDER + 'MLWT/image_classification_for_birds',
+    website: PROJECT_FOLDER + 'MLWT/image_classification_for_birds',
     tags: ['MLT', 'opensource'],
   },
   {
@@ -625,10 +614,41 @@ const Users: User[] = [
       The goal of this project is to finetune a generative pretrained transformer (GPT) and generate United Nations (UN) resolutions.
       </>
     ),
-    source: PROJECT_FOLDER + 'UNxml_GPT-neo-main',
-    website: PROJECT_FOLDER + 'UNxml_GPT-neo-main',
+    source: PROJECT_FOLDER + 'MLWT/UNxml_GPT-neo-main',
+    website: PROJECT_FOLDER + 'MLWT/UNxml_GPT-neo-main',
     tags: ['MLT', 'opensource'],
   },
+  {
+    title: 'Chess game rating quantification',
+    preview: require('./img/dlfcv/chess_resized.jpg'),
+    course: 'Advanced Deep Learning - from CNN to Transformers',
+    semester: 'SoSe 2021',
+    participants: 'Niko Schmidt',
+    description: (
+      <>
+      The idea is to predict, who wins a chess game after some moves. That could be a first step to analyse, which move(s) where the main reason for losing a game or not winning it.
+      </>
+    ),
+    source: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
+    website: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
+    tags: ['DLFCV', 'opensource'],
+  },
+  {
+    title: 'Real-Time Object Detection with YOLO[v3/v4]',
+    preview: require('./img/dlfcv/opendetector.jpg'),
+    course: 'Advanced Deep Learning - from CNN to Transformers',
+    semester: 'SoSe 2021',
+    participants: 'Sudesh Acharya, Bennet Möller',
+    description: (
+      <>
+      Object Detection with YOLO[v3/v4], using OpenCV and PyTorch, undertaken for the partial fulfillment of Advanced Deep Learning Module ( SS2021 ) and ETCS Creditpoints @OpenCampus.sh.
+      </>
+    ),
+    source: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
+    website: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
+    tags: ['DLFCV', 'opensource'],
+  },
+
 
   /*
   Pro Tip: add your site in alphabetical order.

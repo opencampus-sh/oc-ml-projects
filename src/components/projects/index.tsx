@@ -21,7 +21,7 @@ import {SortedUsers, Tags, ThemeTags, TagList, ThemeTagType, User, TagType} from
 type Operator = 'OR' | 'AND';
 
 const TITLE = 'Opencampus.sh Machine Learning Projects';
-const DESCRIPTION = 'The cool projects people are building with the machine learning courses at opencampus.sh';
+const DESCRIPTION = 'The projects people are building with the machine learning courses at opencampus.sh';
 const EDIT_URL =
   'https://edu.opencampus.sh/';
 
