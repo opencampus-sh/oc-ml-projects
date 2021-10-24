@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojects=self.webpackChunkprojects||[]).push([[11],{6376:function(s){s.exports=JSON.parse('{"allTagsPath":"/oc-ml-projects/blog/tags","slug":"/oc-ml-projects/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/oc-ml-projects/blog/tags/docusaurus"}')}}]);
