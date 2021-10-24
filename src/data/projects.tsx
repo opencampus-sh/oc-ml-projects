@@ -76,65 +76,65 @@ export const Tags: Record<TagType, Tag> = {
   favorite: {
     label: 'Opencampus Favorites',
     description:
-      'Our favorite projects that you must absolutely check-out!',
+      'Our favorite projects that you must absolutely check-out! (in progress)',
     icon: <></>,
   },
 
   // For open-source sites, a link to the source code is required
   opensource: {
     label: 'Open Source',
-    description: 'Open-Source Docusaurus sites can be useful for inspiration!',
+    description: 'Project for which the code has been released.',
     icon: <></>,
   },
 
   company: {
     label: 'Made with Companies',
-    description: 'Open-Source Docusaurus sites can be useful for inspiration!',
+    description: 'Projects made in collaboration with a company',
     icon: <></>,
   },
 
   MLT: {
     label: 'Machine Learning with Tensorflow',
-    description: 'Open-Source Docusaurus sites can be useful for inspiration!',
+    description: 'Project from the Machine Learning with Tensorflow course.',
     icon: <></>,
   },
 
   DLFS: {
     label: 'Deep Learning from Scratch',
-    description: 'Docusaurus sites associated to a commercial marketing!',
+    description: 'Project from the Deep Learning from Scratch course.',
     icon: <></>,
   },
 
   GAN: {
     label: 'Generative Adversarial Networks',
     description:
-      'Beautiful Docusaurus sites, polished and standing out from the initial template!',
+      'Project from the General Adversarial Network course.',
     icon: <></>,
   },
 
   MED: {
     label: 'ML für die Medizin',
     description:
-      'Translated Docusaurus sites using the internationalization support with more than 1 locale.',
+      'Projekte aus dem Machine Learning für die Medizin Kurs',
     icon: <></>,
   },
 
   DLFCV: {
     label: 'DL for Computer Vision',
     description:
-      'Translated Docusaurus sites using the internationalization support with more than 1 locale.',
+      'Project from the Deep Learning for Computer Vision course.',
     icon: <></>,
   },
 
   NLP: {
     label: 'NLP with Transformer',
     description:
-      'Translated Docusaurus sites using the internationalization support with more than 1 locale.',
+      'Project from the Natural Language Processing with Transformers course.',
     icon: <></>,
   },
 };
 
-const PROJECT_FOLDER = 'https://github.com/opencampus-sh/ML-Projects/blob/main/src/data/nlp/code/';
+const PROJECT_FOLDER = 'https://github.com/opencampus-sh/ML-Projects/tree/main/data';
 // Add your site to this list
 // prettier-ignore
 const Users: User[] = [
