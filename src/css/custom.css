@@ -23,6 +23,13 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.card {
+  box-shadow: 0px 0px 1rem lightgray;
+}
+.card__image {
+  margin: auto;
+}
+
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }

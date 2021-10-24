@@ -1,26 +1,117 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+/** @type {import('@docusaurus/types').DocusaurusConfig} */
+module.exports = {
+  title: 'opencampus.sh machine learning projects',
+  tagline: 'check out the projects',
+  url: 'https://opencampus-sh.github.io',
+  baseUrl: '/projects/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  favicon: 'img/logo_OC.ico',
+  organizationName: 'opencampus.sh', // Usually your GitHub org/user name.
+  projectName: 'projects', // Usually your repo name.
+  themeConfig: {
+    navbar: {
+      title: '',
+      logo: {
+        alt: 'opencampus logo with text',
+        src: 'img/logo_OC_w_text.png',
+      },
+      items: [
+        // {
+        //   type: 'doc',
+        //   docId: 'intro',
+        //   position: 'left',
+        //   label: 'Tutorial',
+        // },
+        // {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://edu.opencampus.sh',
+          label: 'Courses',
+          position: 'left',
+        },
+        {
+          href: 'https://opencampus.gitbook.io/faq/leistungsnachweise/projekte',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/opencampus-sh/oc-ml-projects',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    image: "static/img/logo_OC.png",
+    footer: {
+      style: 'dark',
+      links: [
+        {
+          title: 'Opencampus',
+          items: [
+            {
+              label: 'opencampus.sh homepage',
+              href: 'https://opencampus.sh',
+            },
+            {
+              label: 'EDU Hub',
+              href: 'https://edu.opencampus.sh',
+            },
+            {
+              label: 'Machine Learning Degree',
+              href: 'https://edu.opencampus.sh/courses/158',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Mattermost',
+              href: 'https://chat.opencampus.sh',
+            },
+            {
+              label: 'Slack',
+              href: 'https://opencampus-sh.slack.com',
+            },
+            {
+              label: 'KielAI',
+              href: 'https://kiel.ai/',
+            },
+          ],
+        },
+        {
+          title: 'Events',
+          items: [
+            {
+              label: 'Waterkant Festival',
+              href: 'https://www.waterkant.sh/',
+            },
+            {
+              label: 'Prototyping Week',
+              href: 'https://starterkitchen.de/ptw/',
+            },
+            {
+              label: 'Coding Waterkant',
+              href: 'https://coding-waterkant-2021.devpost.com/',
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Opencampus.sh. Built with Docusaurus.`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+  },
+  plugins: ['@docusaurus/plugin-ideal-image'],
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -30,89 +121,12 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/opencampus-sh/ML-Projects/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
 };
-
-module.exports = config;
