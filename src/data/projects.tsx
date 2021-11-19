@@ -134,7 +134,7 @@ export const Tags: Record<TagType, Tag> = {
   },
 };
 
-const PROJECT_FOLDER = 'https://github.com/opencampus-sh/ML-Projects/tree/main/data';
+const PROJECT_FOLDER = 'https://github.com/opencampus-sh/ML-Projects/tree/main/data/';
 // Add your site to this list
 // prettier-ignore
 const Users: User[] = [
@@ -462,8 +462,8 @@ const Users: User[] = [
       We use a three layered, dense neural network to predict our parameter.
       </>
     ),
-    source: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TS',
-    website: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TS',
+    source: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TimeSeries',
+    website: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TimeSeries',
     tags: ['DLFS', 'opensource'],
   },
   {
@@ -629,8 +629,8 @@ const Users: User[] = [
       The idea is to predict, who wins a chess game after some moves. That could be a first step to analyse, which move(s) where the main reason for losing a game or not winning it.
       </>
     ),
-    source: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
-    website: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
+    source: PROJECT_FOLDER + 'ADL/Chessgameratingquantification',
+    website: PROJECT_FOLDER + 'ADL/Chessgameratingquantification',
     tags: ['DLFCV', 'opensource'],
   },
   {
@@ -644,8 +644,8 @@ const Users: User[] = [
       Object Detection with YOLO[v3/v4], using OpenCV and PyTorch, undertaken for the partial fulfillment of Advanced Deep Learning Module ( SS2021 ) and ETCS Creditpoints @OpenCampus.sh.
       </>
     ),
-    source: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
-    website: PROJECT_FOLDER + 'DLFCV/UNxml_GPT-neo-main',
+    source: PROJECT_FOLDER + 'ADL/Open-Detector-YOLO',
+    website: PROJECT_FOLDER + 'ADL/Open-Detector-YOLO',
     tags: ['DLFCV', 'opensource'],
   },
 
