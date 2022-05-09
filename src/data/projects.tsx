@@ -99,7 +99,7 @@ export const Tags: Record<TagType, Tag> = {
     icon: <></>,
   },
 
-  DL: {
+  DLFS: {
     label: 'Deep Learning',
     description: 'Project from the Deep Learning course.',
     icon: <></>,
@@ -138,6 +138,104 @@ const PROJECT_FOLDER = 'https://github.com/opencampus-sh/ML-Projects/tree/main/d
 // Add your site to this list
 // prettier-ignore
 const Users: User[] = [
+  // WISE 2122
+  {
+    title: 'Age from Face',
+    preview: require('./img/dlfs/age_from_face.png'),
+    course: 'Deep Learning from Scratch',
+    semester: 'WiSe 2122',
+    participants: 'Oskar Lachnit, Florian Diedrich, Nils-Christian Buck',
+    description: (
+      <>
+      Predict age of a person from an image of their face
+      </>
+    ),
+    source: PROJECT_FOLDER + 'DLFS/age_from_face',
+    website: 'https://github.com/buckcri/age-from-face',
+    tags: ['DLFS', 'opensource'],
+  },
+  {
+    title: 'Shopping Receipt Analysis',
+    preview: require('./img/dlfs/shopping.png'),
+    course: 'Deep Learning from Scratch',
+    semester: 'WiSe 2122',
+    participants: 'Valentin Buck, Jannik Knopp, Irena Kampa',
+    description: (
+      <>
+      We tried to detect and read the total sum from a picture of a shopping receipt. Based on a dataset of self taken pictures of shopping receipts.
+       <i><b>Note</b>: data has been redacted for privacy purposes.</i>
+      </>
+    ),
+    source: PROJECT_FOLDER + 'DLFS/Shopping_receipt_analysis',
+    website: PROJECT_FOLDER + 'DLFS/Shopping_receipt_analysis',
+    tags: ['DLFS', 'opensource'],
+  },
+  {
+    title: 'Single Neuron Signal Analysis',
+    preview: require('./img/dlfs/neural.png'),
+    course: 'Deep Learning from Scratch',
+    semester: 'WiSe 2122',
+    participants: 'Anton Krieger, Katsiaryna Tsishchankava',
+    description: (
+      <>
+      This project aims at automatically classifying signals recorded from neurons in the human brain. 
+      We implemented two neural networks to classify spike sgnals. 
+       <i><b>Note</b>: Data was provided by Marcel Kehl and Florian Mormann from the Department of Epileptology, University of Bonn Medical Center.</i></>
+    ),
+    source: PROJECT_FOLDER + 'DLFS/single_neuron_signal_analysis',
+    website: PROJECT_FOLDER + 'DLFS/single_neuron_signal_analysis',
+    tags: ['DLFS', 'opensource'],
+  },
+  {
+    title: 'Fake News Detection Onion vs Nottheonion',
+    preview: require('./img/dlfs/onion.jpg'),
+    course: 'Deep Learning from Scratch',
+    semester: 'WiSe 2122',
+    participants: 'Peyman Kazemi, Max Kaapke, Alexander Suhm',
+    description: (
+      <>
+      The project contains a model, which learned to predict whether news headlines are either real or made up and fake.
+      </>
+    ),
+    source: PROJECT_FOLDER + 'DLFS/Onion_ML-main',
+    website: PROJECT_FOLDER + 'DLFS/Onion_ML-main',
+    tags: ['DLFS', 'opensource'],
+  },
+  {
+    title: 'PM10_Prediction',
+    preview: require('./img/dlfs/pm_10.jpg'),
+    course: 'Deep Learning from Scratch',
+    semester: 'WiSe 2122',
+    participants: 'Anke Schürmann, Philipp Jordt, Friedrich Kerchnawe',
+    description: (
+      <>
+      A ML project to predict PM10 pollution at selected air monitoring stations.
+      The machine should be trained with weather data and PM10 pollution data from
+      the past. Using weather forecast data, the machine should predict PM10 pollution.
+      </>
+    ),
+    source: PROJECT_FOLDER + 'DLFS/PM10-Project',
+    website: PROJECT_FOLDER + 'DLFS/PM10-Project',
+    tags: ['DLFS', 'opensource'],
+  },
+  {
+    title: 'Flower Classification',
+    preview: require('./img/dlfs/flower_class.jpg'),
+    course: 'Deep Learning from Scratch',
+    semester: 'WiSe 2122',
+    participants: 'John Jay Kimani',
+    description: (
+      <>
+      The main purpose of this project is flower classification using transfer learning.
+      The study of flower classification is an important aspect due to its complex environment for extracting features,
+      similarity of features in many species, changing features in the life of a flower.
+      </>
+    ),
+    source: PROJECT_FOLDER + 'DLFS/flower_classification',
+    website: PROJECT_FOLDER + 'DLFS/flower_classification',
+    tags: ['DLFS', 'opensource'],
+  },
+  // Wise 20/21
   {
     title: 'Study Recommender System with GPT-3',
     preview: require('./img/nlp/StudyRecommendationGPT3Project.png'),
@@ -434,6 +532,7 @@ const Users: User[] = [
     website: PROJECT_FOLDER + 'MLWT/VoiceDetection.ipynb',
     tags: ['MLT', 'opensource'],
   },
+  // SoSe 21
   {
     title: 'Bakery Sales Prediction (G1)',
     preview: require('./img/dlfs/bakery_picture.png'),
@@ -459,7 +558,7 @@ const Users: User[] = [
       <>
       We try to predict the amount of chlorophyll-a using the Boknis Eck timeseries dataset.
       This dataset comprises a number of measurements performed in Boknis Eck, close to Eckernförde, over the course of 50 years.
-      We use a three layered, dense neural network to predict our parameter.
+      We use a three layers dense neural network to predict our parameter.
       </>
     ),
     source: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TimeSeries',
@@ -647,110 +746,7 @@ const Users: User[] = [
     source: PROJECT_FOLDER + 'ADL/Open-Detector-YOLO',
     website: PROJECT_FOLDER + 'ADL/Open-Detector-YOLO',
     tags: ['DLFCV', 'opensource'],
-  },
-  // WISE 2122
-  {
-    title: 'Age from Face',
-    preview: require('./img/dlfs/age_from_face.png'),
-    course: 'Deep Learning from Scratch',
-    semester: 'WiSe 2122',
-    participants: 'Oskar Lachnit, Florian Diedrich, Nils-Christian Buck',
-    description: (
-      <>
-      Predict age of a person from an image of their face
-      </>
-    ),
-    source: PROJECT_FOLDER + 'DLFS/age_from_face',
-    website: 'https://github.com/buckcri/age-from-face',
-    tags: ['DLFS', 'opensource'],
-  },
-  {
-    title: 'Shopping Receipt Analysis',
-    preview: require('./img/dlfs/shopping.png'),
-    course: 'Deep Learning from Scratch',
-    semester: 'WiSe 2122',
-    participants: 'Valentin Buck, Jannik Knopp, Irena Kampa',
-    description: (
-      <>
-      We tried to detect and read the total sum from a picture of a shopping receipt. Based on a dataset of self taken pictures of shopping receipts.
-      <i><b>Note</b>: data has been redacted for privacy purposes.</i>
-      </>
-    ),
-    source: PROJECT_FOLDER + 'DLFS/Shopping_receipt_analysis',
-    website: PROJECT_FOLDER + 'DLFS/Shopping_receipt_analysis',
-    tags: ['DLFS', 'opensource'],
-  },
-  {
-    title: 'Single Neuron Signal Analysis',
-    preview: require('./img/dlfs/neural.png'),
-    course: 'Deep Learning from Scratch',
-    semester: 'WiSe 2122',
-    participants: 'Anton Krieger, Katsiaryna Tsishchankava',
-    description: (
-      <>
-      This project aims at automatically classifying signals recorded from neurons in the human brain. We implemented and tested two neural networks within this project. Multiple signals (spikes) form a cluster and are given one of the following labels:
-      1. Single-unit (SU), 2. Multi-unit (MU), 3. Artefact (A)
-      Data from manually labeled clusters is used as input for training and testing a neural network.
-      <i><b>Note</b>: Data was provided by Marcel Kehl and Florian Mormann from the Department of Epileptology, University of Bonn Medical Center.</i></>
-    ),
-    source: PROJECT_FOLDER + 'DLFS/single_neuron_signal_analysis',
-    website: PROJECT_FOLDER + 'DLFS/single_neuron_signal_analysis',
-    tags: ['DLFS', 'opensource'],
-  },
-  {
-    title: 'Fake News Detection Onion vs Nottheonion',
-    preview: require('./img/dlfs/onion.jpg'),
-    course: 'Deep Learning from Scratch',
-    semester: 'WiSe 2122',
-    participants: 'Peyman Kazemi, Max Kaapke, Alexander Suhm',
-    description: (
-      <>
-      The project contains a model, which learned to predict whether news headlines are either real or made up and fake.
-      </>
-    ),
-    source: PROJECT_FOLDER + 'DLFS/Onion_ML-main',
-    website: PROJECT_FOLDER + 'DLFS/Onion_ML-main',
-    tags: ['DLFS', 'opensource'],
-  },
-  {
-    title: 'PM10_Prediction',
-    preview: require('./img/dlfs/pm_10.jpg'),
-    course: 'Deep Learning from Scratch',
-    semester: 'WiSe 2122',
-    participants: 'Anke Schürmann, Philipp Jordt, Friedrich Kerchnawe',
-    description: (
-      <>
-      A ML project to predict PM10 pollution at selected air monitoring stations.
-      The machine should be trained with weather data and PM10 pollution data from
-      the past. Using weather forecast data, the machine should predict PM10 pollution.
-      The machine could be trained with additional data, such as traffic density.
-
-      What is particulate matter or PM10 (German: Feinstaub)?
-      PM10 are small airborne particles with a diameter of 10 micrometer or less.
-      As they are so small, they are especially adverse for health since they penetrate
-      deep into our lungs.</>
-    ),
-    source: PROJECT_FOLDER + 'DLFS/PM10-Project',
-    website: PROJECT_FOLDER + 'DLFS/PM10-Project',
-    tags: ['DLFS', 'opensource'],
-  },
-  {
-    title: 'Flower Classification',
-    preview: require('./img/dlfs/flower_class.jpg'),
-    course: 'Deep Learning from Scratch',
-    semester: 'WiSe 2122',
-    participants: 'Jay Kimani',
-    description: (
-      <>
-      The main purpose of this project is flower classification using transfer learning.
-      The study of flower classification is an important aspect due to its complex environment for extracting features,
-      similarity of features in many species, changing features in the life of a flower.
-      </>
-    ),
-    source: PROJECT_FOLDER + 'DLFS/flower_classification',
-    website: PROJECT_FOLDER + 'DLFS/flower_classification',
-    tags: ['DLFS', 'opensource'],
-  },
+  }
   /*
   Pro Tip: add your site in alphabetical order.
   Appending your site here (at the end) is more likely to produce Git conflicts.
