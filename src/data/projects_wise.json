@@ -1,0 +1,11 @@
+{
+  "title": "Age from Facessss",
+  "preview": "./img/dlfs/age_from_face.png",
+  "course": "Deep Learning from Scratch",
+  "semester": "WiSe 2122",
+  "participants": "Oskar Lachnit, Florian Diedrich, Nils-Christian Buck",
+  "description": "Predict age of a person from an image of their face",
+  "source": "DLFS/age_from_face",
+  "website": "https://github.com/buckcri/age-from-face",
+  "tags": ["DLFS", "opensource"]
+}

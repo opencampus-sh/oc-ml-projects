@@ -1,0 +1,608 @@
+{
+  title: 'Age from Face',
+  preview: require('./img/dlfs/age_from_face.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 2122',
+  participants: 'Oskar Lachnit, Florian Diedrich, Nils-Christian Buck',
+  description: (
+    <>
+    Predict age of a person from an image of their face
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/age_from_face',
+  website: 'https://github.com/buckcri/age-from-face',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Shopping Receipt Analysis',
+  preview: require('./img/dlfs/shopping.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 2122',
+  participants: 'Valentin Buck, Jannik Knopp, Irena Kampa',
+  description: (
+    <>
+    We tried to detect and read the total sum from a picture of a shopping receipt. Based on a dataset of self taken pictures of shopping receipts.
+     <i><b>Note</b>: data has been redacted for privacy purposes.</i>
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/Shopping_receipt_analysis',
+  website: PROJECT_FOLDER + 'DLFS/Shopping_receipt_analysis',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Single Neuron Signal Analysis',
+  preview: require('./img/dlfs/neural.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 2122',
+  participants: 'Anton Krieger, Katsiaryna Tsishchankava',
+  description: (
+    <>
+    This project aims at automatically classifying signals recorded from neurons in the human brain.
+    We implemented two neural networks to classify spike sgnals.
+     <i><b>Note</b>: Data was provided by Marcel Kehl and Florian Mormann from the Department of Epileptology, University of Bonn Medical Center.</i></>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/single_neuron_signal_analysis',
+  website: PROJECT_FOLDER + 'DLFS/single_neuron_signal_analysis',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Fake News Detection Onion vs Nottheonion',
+  preview: require('./img/dlfs/onion.jpg'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 2122',
+  participants: 'Peyman Kazemi, Max Kaapke, Alexander Suhm',
+  description: (
+    <>
+    The project contains a model, which learned to predict whether news headlines are either real or made up and fake.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/Onion_ML-main',
+  website: PROJECT_FOLDER + 'DLFS/Onion_ML-main',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'PM10_Prediction',
+  preview: require('./img/dlfs/pm_10.jpg'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 2122',
+  participants: 'Anke Schürmann, Philipp Jordt, Friedrich Kerchnawe',
+  description: (
+    <>
+    A ML project to predict PM10 pollution at selected air monitoring stations.
+    The machine should be trained with weather data and PM10 pollution data from
+    the past. Using weather forecast data, the machine should predict PM10 pollution.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/PM10-Project',
+  website: PROJECT_FOLDER + 'DLFS/PM10-Project',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Flower Classification',
+  preview: require('./img/dlfs/flower_class.jpg'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 2122',
+  participants: 'John Jay Kimani',
+  description: (
+    <>
+    The main purpose of this project is flower classification using transfer learning.
+    The study of flower classification is an important aspect due to its complex environment for extracting features,
+    similarity of features in many species, changing features in the life of a flower.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/flower_classification',
+  website: PROJECT_FOLDER + 'DLFS/flower_classification',
+  tags: ['DLFS', 'opensource'],
+},
+// Wise 20/21
+{
+  title: 'Study Recommender System with GPT-3',
+  preview: require('./img/nlp/StudyRecommendationGPT3Project.png'),
+  course: 'Natural Language Processing',
+  semester: 'WiSe 20/21',
+  participants: 'Jan Peter Prigge, Jan Deller, Erwin Smith',
+  description: (
+    <>
+    How can we choose the best study program for us when there are so many choices?
+    Jan, Jan and Erwin built a system using state of the art technology to recommend you the best choice based on what you are looking for.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'NLP/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
+  website: PROJECT_FOLDER + 'NLP/StudyRecommendationGPT3/StudyRecommenderSystemwithGPT-3.pdf',
+  tags: ['NLP', 'opensource'],
+},
+{
+  title: 'Fine-tuning GPT-2',
+  preview: require('./img/nlp/gpt-2.png'),
+  course: 'Natural Language Processing',
+  semester: 'WiSe 20/21',
+  participants: 'Steffen Brandt, Steffen Pohle, Atul Kumar Yadav, Jonas Peltner, Nicolas Steen, Philipp Seeler',
+  description: (
+    <>
+    Can GPT-2 be fine-tuned to achieve GPT-3 like accuracies?
+    The project fine-tuned different models and compared them on different tasks.
+    </>
+  ),
+  source: 'https://github.com/steffen74/GPT-2',
+  website: 'https://github.com/steffen74/GPT-2',
+  tags: ['NLP', 'opensource'],
+},
+{
+  title: 'Classification of illustrations in historic monographies',
+  preview: require('./img/mlwt/Historic_illustrationProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Irena Kampa',
+  description: (
+    <>
+    Digitalizing old collections makes them available to a worldwide public.
+    This project trains a CNN to identify illustrations in monographies from the 15th to the 18th century.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/Historic_illustration.ipynb',
+  website: PROJECT_FOLDER + 'MLWT/Historic_illustration.ipynb',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Painting Classification',
+  preview: require('./img/dlfs/PaintingClassificationProject.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 20/21',
+  participants: 'John Jay Kimani, Nils Berns',
+  description: (
+    <>
+    Which artist painted this painting? Nils and John tried to answer this question using neural networks with different approaches, discover more in their presentation.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/PaintingClassification',
+  website: PROJECT_FOLDER + 'DLFS/PaintingClassification',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'COVID-19 Detection on X-Ray Image',
+  preview: require('./img/dlfs/COVID-19-Xray-Image-ClassificationProject.png'),
+  course: 'Deep Learning from Scratch',semester: 'WiSe 20/21',
+  participants: 'Mithun Das, Mohammad Wasif Islam, Rakibuzzaman Mahmud, Sarker Miraz Mahfuz',
+  description: (
+    <>
+    Can we detect COVID from an X-Ray image of the lungs?
+    It turns out we can, or better, a software can do that for us.
+    This project achieved an accuracy of 0.9896 on this task!
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/COVID-19-Xray-Image-Classification',
+  website: PROJECT_FOLDER + 'DLFS/COVID-19-Xray-Image-Classification',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Face Mask Recognition',
+  preview: require('./img/dlfs/DeepLearningFaceMaskRecognitionProject.png'),
+  course: 'Deep Learning from Scratch',semester: 'WiSe 20/21',
+  participants: 'Adnan Nooruddin, Ravish Kumar, Christoph Eberz, Bennet Möller',
+  description: (
+    <>
+    This project develops a detection system which tells from a picture whether the person is wearing a mask or not.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/FaceMaskRecognition',
+  website: PROJECT_FOLDER + 'DLFS/FaceMaskRecognition',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Bike Sharing Prediction (SprottenFlotte)',
+  preview: require('./img/dlfs/BikeSharingPredictionProject.png'),
+  course: 'Deep Learning from Scratch',semester: 'WiSe 20/21',
+  participants: 'Andrej Ponomarenko, Daniel Michells',
+  description: (
+    <>
+    Analyzing the SprottenFlotte data from Kiel, can we predict where will the next bike be borrowed? <i><b>Note</b>: the data for this project is private and cannot be shared, only the results.</i>
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/BikeSharingPrediction',
+  website: PROJECT_FOLDER + 'DLFS/BikeSharingPrediction',
+  tags: ['DLFS', 'opensource', 'company'],
+},
+{
+  title: 'Disease Classification on Medical XRay Images',
+  preview: require('./img/dlfs/DiseaseClassificationXRayProject.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 20/21',
+  participants: 'Sudesh Acharya',
+  description: (
+    <>
+    Can a neural network distinguish different types of diseases just by looking at a single X-Ray image of the lungs?
+    The project shows promising results in this direction.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/DiseaseClassificationXRay',
+  website: PROJECT_FOLDER + 'DLFS/DiseaseClassificationXRay',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Surf Spots Predictions (Windfinder)',
+  preview: require('./img/dlfs/WindfinderProject.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 20/21',
+  participants: 'Lennart Petersen',
+  description: (
+    <>
+    Predicting the best spot for surfing is a hard task, yet Lennart gave it a great shot and developed a model to predict it with 86% of accuracy. <i><b>Note</b>: the data for this project is private and cannot be shared, only the results.</i>
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/windfinderNN.ipynb',
+  website: PROJECT_FOLDER + 'DLFS/windfinderNN.ipynb',
+  tags: ['DLFS', 'opensource', 'company'],
+},
+{
+  title: 'Image Segmentation',
+  preview: require('./img/dlfs/ImageSegmentationProject.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'WiSe 20/21',
+  participants: 'Yi-Jie Yang, Sebastian Koch, Erwin Smith, Suman Singha',
+  description: (
+    <>
+    Segmentation is used to separate an object from the background.
+    Using a U-Net the group was able to do some interesting work on a Kaggle Challenge.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/ImageSegmentation',
+  website: PROJECT_FOLDER + 'DLFS/ImageSegmentation',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Iceberg and Ship Detection in Radar Satellite Imagery',
+  preview: require('./img/mlwt/ship_classification.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Eike Schütt, Yi-Jie',
+  description: (
+    <>
+    This project is aimed at building an algorithm able to detector for SAR imagery which finds and classifies ships, icebergs or unidentified objects.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/Ship_Iceberg_Classification.ipynb',
+  website: PROJECT_FOLDER + 'MLWT/Ship_Iceberg_Classification.ipynb',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Writing System Recognition',
+  preview: require('./img/mlwt/ScriptRecongitionProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Manpreet Singh, Adnan Nooruddin, Rahima Akter, Sebastian Koch',
+  description: (
+    <>
+    Can we detect different language from an image?
+    Here a classifier which is able to distinguish Latin, Chines, Kyrillic and Georgian!
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/ScriptRecongition',
+  website: PROJECT_FOLDER + 'MLWT/ScriptRecongition',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Designing Airfoils',
+  preview: require('./img/mlwt/AirfoilsDesignProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Nils Berns, Violetta Germann',
+  description: (
+    <>
+    Airfoils usually are designed using complex differential equations.
+    Can we feed a NN with a set of 2D outline of airfoil profiles and let it learn?
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/AirfoilsDesign/AirfoilDesign_presentation_final.ipynb',
+  website: PROJECT_FOLDER + 'MLWT/AirfoilsDesign/AirfoilDesign_presentation_final.ipynb',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Music genre classification task',
+  preview: require('./img/mlwt/MusicalGenreClassificationProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Rakibuzzaman Mahmud, Sarker Miraz Mahfuz, Mohammad Wasif Islam',
+  description: (
+    <>
+    Have ever had a discussion with your friends about the genre of a song?
+    Here the solution: a neural network to automatically classify musical genre!
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/MusicalGenreClassification',
+  website: PROJECT_FOLDER + 'MLWT/MusicalGenreClassification',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Network traffic prediction',
+  preview: require('./img/mlwt/NetworkTrafficPredictionProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Mithra Gholami',
+  description: (
+    <>
+    Internet traffic accounts for huge quantities of data, yet sometimes it's hard to make sense of them.
+    This project aims at classifying network traffic using passive measurements of TCP connections.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/NetworkTrafficPrediction.ipynb',
+  website: PROJECT_FOLDER + 'MLWT/NetworkTrafficPrediction.ipynb',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Predicting Bakery Turnover using AR-Net',
+  preview: require('./img/mlwt/Predict-Bakery-Turnover-using-AR-Net-mainProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Ravish Kumar, Modeus Abdelnaby',
+  description: (
+    <>
+    How accurately can we predict the bakery turnover?
+    This group got an auto-regressive neural network on this task!
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/Predict-Bakery-Turnover-using-AR-Net-main/Predicting_Bakery_Turnover_AR-Net_Modelling-HyperparameterSearch.ipynb',
+  website: PROJECT_FOLDER + 'MLWT/Predict-Bakery-Turnover-using-AR-Net-main/Predicting_Bakery_Turnover_AR-Net_Modelling-HyperparameterSearch.ipynb',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'stock market news analysis by NLP',
+  preview: require('./img/mlwt/News4MarketPredictionProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Andrej Ponomarenko, Monfrared Gharibi Foorogh',
+  description: (
+    <>
+    Are daily news correlated with the stock market?
+    Can we use them to predict the market behaviour?
+    Here some interesting attempts!
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/News4MarketPrediction.ipynb',
+  website: PROJECT_FOLDER + 'MLWT/News4MarketPrediction.ipynb',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Using containership positions (AIS) to predict export statistics',
+  preview: require('./img/mlwt/AIS_predictionProject.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Jakob Stender, Steffen Gans',
+  description: (
+    <>
+    The project worked on training a nueral network for the prediction of unilateral export statistics using Neuralnet and AIS-Containership data
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/AIS_prediction',
+  website: PROJECT_FOLDER + 'MLWT/AIS_prediction',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Voice Detection (Classify Human based on Voice)',
+  preview: require('./img/mlwt/voicedetection.jpg'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'WiSe 20/21',
+  participants: 'Mutasim Fuad, Mithun Das, Rajib Chandra Das',
+  description: (
+    <>
+    This group focused on voice detection and human classification based on the voice.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/VoiceDetection.ipynb',
+  website: PROJECT_FOLDER + 'MLWT/VoiceDetection.ipynb',
+  tags: ['MLT', 'opensource'],
+},
+// SoSe 21
+{
+  title: 'Bakery Sales Prediction (G1)',
+  preview: require('./img/dlfs/bakery_picture.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'SoSe 2021',
+  participants: 'Johannes Dupont, Pavan Jethvani, Osama Alrabayah, Jannik Knopp',
+  description: (
+    <>
+    Deep Learning project to predict future sales of a bakery store according to products.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/Bakery-Sales-project',
+  website: PROJECT_FOLDER + 'DLFS/Bakery-Sales-project',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Hydrochemistry Time Series',
+  preview: require('./img/dlfs/hydro.jpg'),
+  course: 'Deep Learning from Scratch',
+  semester: 'SoSe 2021',
+  participants: 'Julia Börth, Matthias Bressan, Irena Kampa, Wanja Böhme',
+  description: (
+    <>
+    We try to predict the amount of chlorophyll-a using the Boknis Eck timeseries dataset.
+    This dataset comprises a number of measurements performed in Boknis Eck, close to Eckernförde, over the course of 50 years.
+    We use a three layers dense neural network to predict our parameter.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TimeSeries',
+  website: PROJECT_FOLDER + 'DLFS/Hydrochemistry_TimeSeries',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Phishing Website Detection',
+  preview: require('./img/dlfs/Phishing.jpg'),
+  course: 'Deep Learning from Scratch',
+  semester: 'SoSe 2021',
+  participants: 'Anita Safi, Manikwadura Dilini Tharindika, Awais Khan Malik, Razeeb Sarker',
+  description: (
+    <>
+    Using Natural Language Processing approach and by focusing on words in
+    the address Bar, a Neural Network has been traind to detect Phishing
+    and legitimate website.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/Physhing_Website_Detection',
+  website: PROJECT_FOLDER + 'DLFS/Physhing_Website_Detection',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Bakery Sales Prediction (G2)',
+  preview: require('./img/dlfs/bp_g2.jpg'),
+  course: 'Deep Learning from Scratch',
+  semester: 'SoSe 2021',
+  participants: 'Amelie Schmuecker, Samira Ferssioui, Niko Schmidt, Christopher Hansen',
+  description: (
+    <>
+    Prediction of bakery sales based on Metolytix Dataset
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/BakerySalesPrediction',
+  website: PROJECT_FOLDER + 'DLFS/BakerySalesPrediction',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Climate Change',
+  preview: require('./img/dlfs/climate.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'SoSe 2021',
+  participants: 'Vineet Shah, Shilpika Sarvepalli',
+  description: (
+    <>
+    We try to simulate Climate Scenario Analysis using 3 different IPCC climate scenarios; RCP3PD, RCP4.5, and RCP6 and predict temperature for each scenario in the year 2100.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/Climate_Change',
+  website: PROJECT_FOLDER + 'DLFS/Climate_Change',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Fake News Detection',
+  preview: require('./img/dlfs/fakenews2.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'SoSe 2021',
+  participants: 'Farjana Islam, Junaid Abbas Mohammed, Md Majharul Islam Nayem',
+  description: (
+    <>
+    This project uses a Fake and real news dataset from the Kaggle.  We implement a Feed Forward Neural Network and a LSTM techniques using TensorFlow to find the desired output for the project.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/FakeNewsDetector_G2',
+  website: PROJECT_FOLDER + 'DLFS/FakeNewsDetector_G2',
+  tags: ['DLFS', 'opensource'],
+},
+{
+  title: 'Surf Spot Prediction (Windfinder)',
+  preview: require('./img/placeholder.png'),
+  course: 'Deep Learning from Scratch',
+  semester: 'SoSe 2021',
+  participants: 'Kilian Köln',
+  description: (
+    <>
+    A basic machine learning approch on predicting the pageviews for the windfinder website when provided with weatherdata. <i><b>Note</b>: the data for this project is private and cannot be shared, only the results.</i>
+    </>
+  ),
+  source: PROJECT_FOLDER + 'DLFS/Windfinder_So2021',
+  website: PROJECT_FOLDER + 'DLFS/Windfinder_So2021',
+  tags: ['DLFS', 'opensource', 'company'],
+},
+{
+  title: 'Generating Fake Chinese Characters by GAN',
+  preview: require('./img/gan/Fake_Chinese_Character.png'),
+  course: 'Generative Adversarial Networks',
+  semester: 'SoSe 2021',
+  participants: 'Anita Safi, Sebastian Koch',
+  description: (
+    <>
+    The goal of this project was generating images of artificial / "fake" Chinese Characters by using a generative adversarial network (GAN) trained on a dataset of images containing real Chinese characters.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'GAN/Generating-Fake-Chinese-Characters-by-GAN',
+  website: PROJECT_FOLDER + 'GAN/Generating-Fake-Chinese-Characters-by-GAN',
+  tags: ['GAN', 'opensource'],
+},
+{
+  title: 'Automated Essay Scoring',
+  preview: require('./img/mlwt/ml_group_photo.jpg'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'SoSe 2021',
+  participants: 'Sabrina Ludwig, Christopher Hansen, Christian Mayer, Kerstin Eilers',
+  description: (
+    <>
+    Automated scoring of social study evaluation
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/azubi_evaluation_ml_with_tensorflow',
+  website: PROJECT_FOLDER + 'MLWT/azubi_evaluation_ml_with_tensorflow',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'A Hybrid Approach to Predict Cryptocurrency Value',
+  preview: require('./img/mlwt/Crypto_Price_Prediction.jpg'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'SoSe 2021',
+  participants: 'Anita Safi, Rakeshwer Rakeshwer, Awais Khan Malik',
+  description: (
+    <>
+    The goal of this project is to train a model which is able to classify if the value of specific cryptocurrency would rise or decline in the next day and would it be rational to buy or sell that crypto.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/Hybrid_Approach_to_Predict_Cryptocurrency_Value',
+  website: PROJECT_FOLDER + 'MLWT/Hybrid_Approach_to_Predict_Cryptocurrency_Value',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Image classification for birds',
+  preview: require('./img/mlwt/birds.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'SoSe 2021',
+  participants: 'Esam Al Sakka, Kai Paulsen',
+  description: (
+    <>
+    This project aimed to configure and train a network to predict the specie of a bird based on its image using different computer vision training techniques including CNN and transfer learning.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/image_classification_for_birds',
+  website: PROJECT_FOLDER + 'MLWT/image_classification_for_birds',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'GPT-NEO United Nations',
+  preview: require('./img/placeholder.png'),
+  course: 'Machine Learning with Tensorflow',
+  semester: 'SoSe 2021',
+  participants: 'Felix Gröner, Nils Axe',
+  description: (
+    <>
+    The goal of this project is to finetune a generative pretrained transformer (GPT) and generate United Nations (UN) resolutions.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'MLWT/UNxml_GPT-neo-main',
+  website: PROJECT_FOLDER + 'MLWT/UNxml_GPT-neo-main',
+  tags: ['MLT', 'opensource'],
+},
+{
+  title: 'Chess game rating quantification',
+  preview: require('./img/dlfcv/chess_resized.jpg'),
+  course: 'Advanced Deep Learning - from CNN to Transformers',
+  semester: 'SoSe 2021',
+  participants: 'Niko Schmidt',
+  description: (
+    <>
+    The idea is to predict, who wins a chess game after some moves. That could be a first step to analyse, which move(s) where the main reason for losing a game or not winning it.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'ADL/Chessgameratingquantification',
+  website: PROJECT_FOLDER + 'ADL/Chessgameratingquantification',
+  tags: ['DLFCV', 'opensource'],
+},
+{
+  title: 'Real-Time Object Detection with YOLO[v3/v4]',
+  preview: require('./img/dlfcv/opendetector.jpg'),
+  course: 'Advanced Deep Learning - from CNN to Transformers',
+  semester: 'SoSe 2021',
+  participants: 'Sudesh Acharya, Bennet Möller',
+  description: (
+    <>
+    Object Detection with YOLO[v3/v4], using OpenCV and PyTorch, undertaken for the partial fulfillment of Advanced Deep Learning Module ( SS2021 ) and ETCS Creditpoints @OpenCampus.sh.
+    </>
+  ),
+  source: PROJECT_FOLDER + 'ADL/Open-Detector-YOLO',
+  website: PROJECT_FOLDER + 'ADL/Open-Detector-YOLO',
+  tags: ['DLFCV', 'opensource'],
+}
